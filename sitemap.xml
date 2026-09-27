@@ -1,72 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://elementsmiltonhomes.com/</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="amphtml" href="https://elementsmiltonhomes.com/amp.html"/>
-    <image:image>
-      <image:loc>https://images.preconfactory.com/storage/v1/object/public/rental-documents/1790447418772_9_Elements-Hero-Landscape.jpg</image:loc>
-      <image:title>Elements Milton homes — freehold townhome exterior in Milton, Ontario</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://images.preconfactory.com/storage/v1/object/public/rental-documents/1790447418774_19_slider-01.jpg</image:loc>
-      <image:title>Elements Milton freehold townhome exterior in Milton Ontario</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://images.preconfactory.com/storage/v1/object/public/rental-documents/1790447418774_20_slider-02.jpg</image:loc>
-      <image:title>Elements Milton double-car garage townhomes in Milton</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://images.preconfactory.com/storage/v1/object/public/rental-documents/1790447418774_21_slider-03.jpg</image:loc>
-      <image:title>Elements Milton 3 to 5 bedroom townhome rendering</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://images.preconfactory.com/storage/v1/object/public/rental-documents/1790447418774_22_slider-04.jpg</image:loc>
-      <image:title>Elements Milton freehold towns at Bronte and Britannia</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://images.preconfactory.com/storage/v1/object/public/rental-documents/1790447418775_23_slider-05.jpg</image:loc>
-      <image:title>Elements Milton community streetscape in Milton Ontario</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://images.preconfactory.com/storage/v1/object/public/rental-documents/1790447418775_24_slider-06.jpg</image:loc>
-      <image:title>Elements Milton townhome collection rendering</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://images.preconfactory.com/storage/v1/object/public/rental-documents/1790447418775_25_slider-07.jpg</image:loc>
-      <image:title>Elements Milton homes with landscaped front yards</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://images.preconfactory.com/storage/v1/object/public/rental-documents/1790447418775_26_slider-08.jpg</image:loc>
-      <image:title>Elements Milton freehold townhome architecture</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://images.preconfactory.com/storage/v1/object/public/rental-documents/1790447418775_27_slider-09.jpg</image:loc>
-      <image:title>Elements Milton neighbourhood rendering in Halton Region</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://images.preconfactory.com/storage/v1/object/public/rental-documents/1790447418776_28_slider-10.jpg</image:loc>
-      <image:title>Elements Milton townhomes near Britannia Road</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://images.preconfactory.com/storage/v1/object/public/rental-documents/1790447418776_29_slider-11.jpg</image:loc>
-      <image:title>Elements Milton homes wide community view</image:title>
-    </image:image>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="amphtml" href="https://elementsmiltonhomes.com/amp.html" />
   </url>
   <url>
     <loc>https://elementsmiltonhomes.com/privacy.html</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <lastmod>2026-09-27</lastmod>
   </url>
   <url>
     <loc>https://elementsmiltonhomes.com/terms.html</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <lastmod>2026-09-27</lastmod>
   </url>
 </urlset>
