@@ -32,4 +32,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://elementsmiltonhomes.com/sitemap.xml
+Sitemap: https://elementsmiltonhomes.com/sitemap/sitemap.xml
