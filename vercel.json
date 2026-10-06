@@ -1,6 +1,11 @@
 {
   "redirects": [
     {
+      "source": "/sitemap.xml/",
+      "destination": "https://elementsmiltonhomes.com/sitemap.xml",
+      "permanent": true
+    },
+    {
       "source": "/",
       "has": [{ "type": "host", "value": "www.elementsmiltonhomes.com" }],
       "destination": "https://elementsmiltonhomes.com/",
@@ -14,6 +19,7 @@
     }
   ],
   "rewrites": [
+    { "source": "/sitemap.xml", "destination": "/api/sitemap" },
     { "source": "/amp", "destination": "/amp.html" },
     { "source": "/amp/", "destination": "/amp.html" }
   ],
@@ -22,14 +28,6 @@
       "source": "/",
       "headers": [
         { "key": "Link", "value": "<https://elementsmiltonhomes.com/amp.html>; rel=\"amphtml\"" }
-      ]
-    },
-    {
-      "source": "/sitemap.xml",
-      "headers": [
-        { "key": "Content-Type", "value": "application/xml; charset=UTF-8" },
-        { "key": "Content-Disposition", "value": "inline" },
-        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
       ]
     },
     {

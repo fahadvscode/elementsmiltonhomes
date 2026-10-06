@@ -1,6 +1,5 @@
 const XML = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://elementsmiltonhomes.com/</loc>
     <lastmod>2026-10-05</lastmod>
@@ -18,7 +17,9 @@ const XML = `<?xml version="1.0" encoding="UTF-8"?>
 `
 
 module.exports = function handler(req, res) {
-  res.setHeader('Content-Type', 'application/xml; charset=UTF-8')
+  res.setHeader('Content-Type', 'text/xml; charset=utf-8')
   res.setHeader('Cache-Control', 'public, max-age=0, must-revalidate')
+  res.setHeader('Access-Control-Allow-Origin', '*')
+  res.removeHeader('Content-Disposition')
   res.status(200).send(XML)
 }
