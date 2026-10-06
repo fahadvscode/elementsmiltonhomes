@@ -14,8 +14,6 @@
     }
   ],
   "rewrites": [
-    { "source": "/sitemap.xml", "destination": "/api/sitemap" },
-    { "source": "/sitemap.xml/", "destination": "/api/sitemap" },
     { "source": "/amp", "destination": "/amp.html" },
     { "source": "/amp/", "destination": "/amp.html" }
   ],
@@ -27,11 +25,21 @@
       ]
     },
     {
+      "source": "/sitemap.xml",
+      "headers": [
+        { "key": "Content-Type", "value": "text/xml; charset=utf-8" },
+        { "key": "Content-Disposition", "value": "inline" },
+        { "key": "Cache-Control", "value": "no-store" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    },
+    {
       "source": "/sitemap/sitemap.xml",
       "headers": [
         { "key": "Content-Type", "value": "text/xml; charset=utf-8" },
         { "key": "Content-Disposition", "value": "inline" },
-        { "key": "Cache-Control", "value": "no-store" }
+        { "key": "Cache-Control", "value": "no-store" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
       ]
     },
     {
